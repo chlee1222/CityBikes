@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.background{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(253, 239, 221);
+}
+.loadingText {
+    position: absolute;
+    font-size: 40px;
+    width: 800px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    z-index: 1;
+    color: rgb(51, 51, 51);
+    font-family: 'Arial';
+    transform: translateY(-50%);
+}

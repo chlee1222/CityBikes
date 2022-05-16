@@ -1,0 +1,42 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+}
+.leaflet-container { 
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+.buttonwrap {
+    z-index: 2001;
+    right: 0;
+    margin: 15px;
+    height: 200px;
+    width: 250px;
+    padding: 20px 20px;
+    background-color: rgb(252, 248, 255);
+    border-radius: 25px;
+    /* border: 2px solid white; */
+    position: absolute;
+    background-color: rgb(245, 245, 245);
+}
+
+#firstsection {
+    width: 95%;
+    height: 20%;
+    padding: 5px;
+    display: 'flex';
+}
+
+#column {
+    width: 95%;
+    height: 80%;
+}
+
+/* #col {
+    height: 100px;
+    width: 33%;
+    background-color: tomato;
+} */
